@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '10'
+deploy:
+  provider: npm
+  email: cardinalby@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: oCrs7nh+zcwB2Q0gmge+JCL3sly3aiLdkTRZN06wkzMoYFnHCT+02fEo/n4piZKYA838Q10Wa4f3FUpvcekqNcPygifEhvBiegm2QktZNI6renYen7QmJeWht3MuCQfsRpRvznBKGVcNSNYO8tKIL1UGxB+9zNiAWQPAn4ZdZceRphnBkTVfudSZppn+EleSDCX2jzNNdHoeJtkaiGYGQ8q6bb1ySeHu56LN5wCzYockQC+OMDrIMOS5i5HJKSFzie5kFwCOOA3A6rQ1QnKbZADyKp6s6AXEhrhh06+ai+NkNB42ezlSqasadyhbq6ImjgrjMVKIC8OZ1U/oH1JMmhvt1v/p2T4+8VikhzjJNIZf+zynOTc4l3qia0puNZioACjv7s7OnArGciLRWdjDL9y3Ln9h4n7Bbu3g0QUEK678EnaE5hkrlyAJGN02pA7r2iDvWabPy3UsBxNZSbL0yM50fFPmIqsRQLuQg9gALXASLE+bp/Gas4v/Rkl24ay1CBdOdmHIC+Sx6jKuj9B0mUPcmODA26xlBr9OFskHiU9hdWkGMfPx5HSnuRm8VVDnCbIz4AEGXQtqrCIo6MgFFcHbwj3JiNLEFPllMYBaHAHhngU5hFv7XpSyyz6V8FWfzERBenSHj3mBDEym7AjSJs5IvU87fbbr4P7kwNEJPNU=
+  on:
+    tags: true
+    repo: cardinalby/webext-buildtools-opera-addons-builder
