@@ -1,6 +1,6 @@
 {
   "name": "webext-buildtools-opera-addons-builder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "webext-buildtools builder for deploying extension to Opera add-ons",
   "main": "dist",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "fs-extra": "^7.0.1",
-    "upload-opera-extension": "^1.0.1",
+    "upload-opera-extension": "^1.0.3",
     "webext-buildtools-utils": "^1.0.3"
   },
   "devDependencies": {
